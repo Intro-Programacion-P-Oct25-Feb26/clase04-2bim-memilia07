@@ -23,19 +23,18 @@ public class Ejemplo043 {
         }
         
         /*
-         Estamos haciendo una suma en la cual usamos los valores q existen en los
-        arreglos  y utilizamos un condicional for en el cual 
-        
-        
-        
+        Estamos haciendo una suma en la cual usamos los valores que existen en los
+        arreglos  y se recorre los arreglos usando un ciclo for y se sumen los valores 
+        correspondientes.
         */
-        obtenerSuma(10, 30); // se invoca al método (procedimiento) obtenerSuma
+        
+        obtenerSuma(10, 30); // se invoca al método  (procedimiento) obtenerSuma
 
     }
 
     public static void obtenerSuma(int a, int b) {
         int suma;
-        suma = a + b;
+        suma = a + b ;  
         System.out.printf("El valor de la suma es: %d\n", suma);
 
     }
