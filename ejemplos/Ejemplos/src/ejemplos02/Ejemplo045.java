@@ -17,11 +17,13 @@ public class Ejemplo045 {
         int[][] arreglo1 = {{1, 2, 3}, {3, 2, 4}, {2, 6, 2}};
         int[][] arreglo2 = {{1, 2, 3}, {2, 2, 2}, {3, 1, 2}};
         int[][] arreglo3 = llenarMatriz(arreglo1, arreglo2);
+        int[][] arreglo4 = llenarMatriz2(arreglo1, arreglo2);
 
         //new int[3][3];
         obtenerReporte(arreglo1);
         obtenerReporte(arreglo2);
         obtenerReporte(arreglo3);
+        obtenerReporte(arreglo4);
     }
 
     public static int[][] llenarMatriz(int[][] x, int[][] y) {
@@ -52,5 +54,12 @@ public class Ejemplo045 {
         return operacion;
 
     }
+    public static int[][] llenarMatriz2(int[][] x, int[][] y) {
+    
+    
+    
+    
+    }
+    
 
 }

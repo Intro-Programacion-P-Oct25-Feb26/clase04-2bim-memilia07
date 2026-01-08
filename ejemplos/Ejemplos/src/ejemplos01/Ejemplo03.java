@@ -17,7 +17,7 @@ public class Ejemplo03 {
                                          // obtenerSuma
         System.out.printf("El valor de la suma es: %d\n", valor);
         
-        System.out.printf(suma);
+        //System.out.printf(suma);
         // Da error porque suma esta dentro de la funcion de "obtenerSuma" y no existe en la funcion principal.
         
         // System.out.printf("El valor de la suma es: %d\n", obtenerSuma(10, 30));
